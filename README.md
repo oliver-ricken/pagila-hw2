@@ -33,3 +33,15 @@ This is the second SQL homework in CMC's CSCI143: Big Data class.
         > and you should not have to modify any of these files.
 
 1. Next, complete the problems in the `sql` folder just like you did for the [pagila-hw](https://github.com/mikeizbicki/pagila-hw) assignment.
+
+Bring up the docker container with the command
+
+```
+$ docker-compose up -d --build
+```
+
+Then run the the test case script with
+
+```
+$ docker-compose exec pg ./run_tests.sh
+```
