@@ -8,6 +8,7 @@
  * See: <https://www.postgresql.org/docs/current/functions-formatting.html#FUNCTIONS-FORMATTING-EXAMPLES-TABLE>
  */
 
+
 SELECT
     rank,
     title,
